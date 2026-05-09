@@ -1,0 +1,18 @@
+{
+    "total_revenue": {
+        "expression": "SUM(price * quantity)",
+        "description": "Total gross revenue generated."
+    },
+    "order_count": {
+        "expression": "COUNT(order_id)",
+        "description": "Total number of orders placed."
+    },
+    "average_order_value": {
+        "expression": "AVG(price * quantity)",
+        "description": "Average value of a single order."
+    },
+    "unique_users": {
+        "expression": "COUNT(DISTINCT user_id)",
+        "description": "Count of unique users."
+    }
+}

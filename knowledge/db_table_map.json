@@ -1,0 +1,12 @@
+{
+    "sales_performance": {
+        "database": "public",
+        "table": "sales_data",
+        "description": "Historical sales transactions and performance data."
+    },
+    "user_activity": {
+        "database": "public",
+        "table": "user_events",
+        "description": "User interaction events and session logs."
+    }
+}
